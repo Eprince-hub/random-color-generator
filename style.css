@@ -17,13 +17,13 @@ body {
 
 .colorBox {
 	width: 70%;
-	height: 93vh;
+	height: 90vh;
 	background-color: black;
 }
 
 #text_section {
 	width: 29%;
-	height: 93vh;
+	height: 90vh;
 	background-color: black;
 }
 
@@ -44,7 +44,7 @@ body {
 
 #button {
 	width: 100%;
-	height: 7vh;
+	height: 10vh;
 	font-size: 3rem;
 	text-align: center;
 	font-weight: bold;
