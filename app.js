@@ -11,6 +11,7 @@ para2.className = 'rgb-section';
 mainBody.appendChild(para1);
 mainBody.appendChild(para2);
 
+//Functions that is generating the color!
 function callColors() {
 	function randomNumber() {
 		const dings = ['A', 'B', 'C', 'D', 'E', 'F'];
@@ -32,12 +33,12 @@ function callColors() {
 	function convertToRGB(hexValue) {
 		let regex = /.{1,2}/g;
 		let newHexValue = hexValue.match(regex);
-		let aRgb = [
+		let rgbArrayValue = [
 			parseInt(newHexValue[0], 16),
 			parseInt(newHexValue[1], 16),
 			parseInt(newHexValue[2], 16),
 		];
-		return aRgb;
+		return rgbArrayValue;
 	}
 
 	//convertToRGB(newValue);
@@ -50,6 +51,7 @@ function callColors() {
 	mainBody.appendChild(para2);
 
 	colorBox.style.backgroundColor = `${rgbColor}`;
+	mainBody.style.backgroundColor = `${rgbColor}`;
 }
 
 button.addEventListener('click', callColors);
