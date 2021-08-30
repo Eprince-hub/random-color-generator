@@ -51,7 +51,7 @@ function callColors() {
 	mainBody.appendChild(para2);
 
 	colorBox.style.backgroundColor = `${rgbColor}`;
-	mainBody.style.backgroundColor = `${rgbColor}`;
+	mainBody.style.backgroundColor = `rgb(${rgbValue})`;
 }
 
 button.addEventListener('click', callColors);
