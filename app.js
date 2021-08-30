@@ -44,7 +44,7 @@ function callColors() {
 	//convertToRGB(newValue);
 	let rgbValue = convertToRGB(newValue);
 
-	para1.innerHTML = 'The Hex Value: ' + rgbColor;
+	para1.innerHTML = `The Hex Value:  ${rgbColor}`;
 	para2.innerHTML = `The RGB Value: rgb(${rgbValue})`;
 
 	mainBody.appendChild(para1);
