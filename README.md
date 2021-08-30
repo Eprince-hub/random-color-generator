@@ -17,4 +17,6 @@ contribute.
 
 The code and everything there is, is 100% free,, use it anyhow you want it!.
 
+gitHub page: eprince-hub.github.io/random-color-generator
+
 Let us learn and grow!.
