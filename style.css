@@ -21,7 +21,23 @@ body {
 }
 
 #text_section {
-	width: 28%;
-	height: 50vh;
+	width: 29%;
+	height: 95vh;
 	background-color: gold;
+}
+
+.hex-section,
+.rgb-section {
+	width: 70%;
+	height: 5rem;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border: 5px dashed gold;
+	padding: 0 0.5rem;
+	background-color: green;
+}
+
+#button {
 }

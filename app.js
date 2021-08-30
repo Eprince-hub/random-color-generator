@@ -1,12 +1,13 @@
 let colorBox = document.querySelector('.colorBox');
-let mainBody = document.querySelector('#main_section');
+let mainBody = document.querySelector('#text_section');
 let para1 = document.createElement('p');
 let para2 = document.createElement('p');
 let button = document.querySelector('#button');
 
 para1.innerHTML = 'The Hex Value: #000000 ';
 para2.innerHTML = 'The RGB Value: rgb(00, 00, 00)';
-
+para1.className = 'hex-section';
+para2.className = 'rgb-section';
 mainBody.appendChild(para1);
 mainBody.appendChild(para2);
 
