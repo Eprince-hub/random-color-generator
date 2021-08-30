@@ -1,0 +1,27 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.colorBox {
+	width: 70%;
+	height: 95vh;
+	background-color: black;
+}
+
+#text_section {
+	width: 28%;
+	height: 50vh;
+	background-color: gold;
+}
